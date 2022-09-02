@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=46:5F:E2:7B:E9:D5:FB:F6:7A:B5:98:E2:D0:25:86:2E:A5:6D:13:E3%3Bnet.mpsland.studentlogin
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    net.mpsland.studentlogin
+
+    SHA-1 certificate fingerprint:
+    46:5F:E2:7B:E9:D5:FB:F6:7A:B5:98:E2:D0:25:86:2E:A5:6D:13:E3
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyApG1NTPCihEHVULX2oshGU9YNWNys3XQc</string>
+</resources>

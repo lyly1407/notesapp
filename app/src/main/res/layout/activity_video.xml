@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".video">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Mat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/winter_insight"
+                android:text="Material One"
+                android:textColor="#006699"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+             <VideoView
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                />
+            <Button
+                android:id="@+id/play"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#006699"
+                android:text="Play"
+                android:onClick="play"
+                />
+
+            <TextView
+                android:id="@+id/Mat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/winter_insight"
+                android:text="Algorithm"
+                android:textColor="#006699"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/video1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                />
+            <Button
+                android:id="@+id/play1"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#006699"
+                android:text="Play"
+                android:onClick="play1"
+                />
+
+            <TextView
+                android:id="@+id/Mat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/winter_insight"
+                android:text="Calculus"
+                android:textColor="#006699"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/video2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                />
+            <Button
+                android:id="@+id/play2"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#006699"
+                android:text="Play"
+                android:onClick="play2"
+                />
+
+            <TextView
+                android:id="@+id/Mat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/winter_insight"
+                android:text="Statistics"
+                android:textColor="#006699"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/video3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                />
+            <Button
+                android:id="@+id/play3"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#006699"
+                android:text="Play"
+                android:onClick="play3"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

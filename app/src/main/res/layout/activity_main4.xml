@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".welcome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/Result"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center|center_vertical"
+            android:text=" "
+            android:textColor="#006699"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/winter_insight"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="22"
+        >
+
+        <TextView
+            android:id="@+id/viewUrl"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/winter_insight"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#006699"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/takeNote"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/winter_insight"
+            android:gravity="center"
+            android:text="Take Your Notes    Click (+)"
+            android:textColor="#006699"
+            android:textSize="55dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/videoTutor"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#006699"
+            android:fontFamily="@font/winter_insight"
+            android:onClick="video"
+            android:text="video tutorial"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/downloadMat"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:backgroundTint="#006699"
+            android:fontFamily="@font/winter_insight"
+            android:onClick="download"
+            android:text="Download Material"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/timer"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="#006699"
+            android:fontFamily="@font/winter_insight"
+            android:onClick="timer"
+            android:text="Timer"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="380dp"
+            android:text="Manage your study time with 25 minutes to focus on studying"
+            android:textColor="#006699"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="470dp"
+            android:backgroundTint="#006699"
+            android:fontFamily="@font/winter_insight"
+            android:onClick="feedback"
+            android:text="Send Feedback"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="home"
+            android:src="@drawable/home"
+            android:layout_weight="3"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="add"
+            android:src="@drawable/add"
+            android:layout_weight="3"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+        />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:onClick="acc"
+            android:src="@drawable/acc"
+            android:layout_weight="3"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

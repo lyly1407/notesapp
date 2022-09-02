@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".feedback">
+
+    <TextView
+        android:id="@+id/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Feedback"
+        android:textAlignment="center"
+        android:textColor="#006699"
+        android:textSize="85dp"
+        android:fontFamily="@font/winter_insight"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/email"
+        android:onClick="myloc"/>
+
+    <EditText
+        android:id="@+id/yn"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:hint="Enter Your Name"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#006699"
+        />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:hint="Your Feedback"
+        android:textColorHint="#006699"
+        android:maxLines="5"
+        android:minLines="5"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="send"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:fontFamily="@font/winter_insight"
+        android:backgroundTint="#006699"
+        android:onClick="sentMsg"/>
+
+</LinearLayout>
